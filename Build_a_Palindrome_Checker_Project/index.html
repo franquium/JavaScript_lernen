@@ -1,0 +1,40 @@
+<!--
+ * @file index.html
+ * @description HTML structure for the palindrome checker following the requirements for the project
+ * @author franquium
+ *
+-->
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palindrome Checker</title>
+  <!-- Link to the external CSS stylesheet code -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+	<!-- Main Title of the App -->
+    <h1>Palindrome Checker</h1>
+	
+	<!-- Paragraph with palidrome description -->
+    <p> <b>Remember:</b> A <i>palindrome</i> is a word or phrase that reads the same backward as forward, ignoring punctuation, case, and spacing.</p>
+    
+    <div class="palindrome-form">
+	  <!-- Text input field -->	
+      <input type="text" id="text-input" placeholder="Enter text to check">
+       
+	   <!-- Button that triggers the palindrome check -->
+	  <button id="check-btn">Check</button>
+    </div>
+    
+	<!-- Results area where the result will be displayed -->
+    <div id="result"></div>
+  </div>
+  
+  <!-- Link to external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
